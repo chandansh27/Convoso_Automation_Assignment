@@ -1,0 +1,17 @@
+{
+  "name": "test_assignment_convoso_cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e:headed": "npx cypress run --spec cypress/e2e/convoso_assignment.spec.js --headed --browser chrome",
+    "test:e2e:headless": "npx cypress run --spec cypress/e2e/convoso_assignment.spec.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
