@@ -22,6 +22,7 @@ Ensure you have the following installed:
     "password" : "enterpassword"
 
 }
+
 7. Run the test:
 
    npm run test:e2e:headed
